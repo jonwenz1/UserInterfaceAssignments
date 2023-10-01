@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmailReaderBasicComponent } from './email-reader-basic/email-reader-basic.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { EmailReaderFormComponent } from './email-reader-form/email-reader-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmailReaderBasicComponent
+    EmailReaderBasicComponent,
+    EmailReaderFormComponent
   ],
   imports: [
     BrowserModule,

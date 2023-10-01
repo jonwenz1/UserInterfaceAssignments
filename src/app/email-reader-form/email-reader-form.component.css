@@ -1,0 +1,33 @@
+/* Stil für gültige Felder (grüne Umrandung) 
+.valid-field {
+    border: 10px solid green;
+}
+
+/* Stil für ungültige Felder (gelbe Umrandung) 
+.invalid-field {
+    border: 10px solid yellow;
+}
+*/
+/* Valid input style */
+.valid-style {
+    border: 10px solid green;
+  }
+  
+  /* Invalid input style */
+  .invalid-style {
+    border: 10px solid yellow;
+  }
+  
+  .ng-invalid:not(form),
+  .ng-invalid.required {
+    border: 10px solid green;
+  }
+  .ng-invalid:not(form),
+  .ng-invalid.required {
+    border: 10px solid yellow;
+  }
+  
+  .custom-bg {
+    background-color: #f7a400;
+  }
+  
